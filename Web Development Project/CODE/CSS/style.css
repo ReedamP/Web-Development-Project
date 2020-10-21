@@ -1,0 +1,285 @@
+body{
+  font: 15px/1.5  sans-serif;
+  margin: 0; /*Removes the space around the page (so it fits the whole browser window)*/
+}
+
+header{ /*Main title*/
+  text-align: center;
+  font-size: 23px;
+  background-color: #353637; /*blackish*/
+  padding-top: 2px; /*To raise the black background to the top*/
+  color: #ffffff; /*white*/
+  border-bottom: #32a0c2 5px solid; /*Line at the bottom*/
+}
+
+header a{ /*for the bullet points*/
+  color: #ffffff; /*white*/
+  text-decoration: none; /*removes underline*/
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  display: inline; /*Side by side layout*/
+  padding: 0 50px 0 5px; /*Increases the space between them*/
+}
+
+header .highlight, header .current a, header a:hover { /* hover selector is what happens when the mouse hovers; .current selects and styles all emenets with class="current"*/
+  background-color: #32a0c2; /*Light blue*/
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+ul{
+  margin: 0; /*Gets rid of margins for the page options (The space between the options and blue line)*/
+}
+
+h2{
+  font-size: 50px;
+  position: fixed;
+  left: 10px;
+  background-color: #32a0c2; /*Light blue*/
+  color: white;
+  border-radius: 10px 10px;
+}
+
+h3{
+  font-size: 30px;
+  position: fixed;
+  left: 1050px;
+  bottom: 320px;
+  padding: 5px;
+  background-color: #32a0c2; /*Light blue*/
+  color: white;
+  border-radius: 10px 10px;
+}
+
+#errorartist{
+  font-size: 30px;
+  position: fixed;
+  left: 570px;
+  padding: 5px;
+  background-color: red; /*Light blue*/
+  color: white;
+  border-radius: 10px 10px;
+}
+
+#homepagebody{ /*id selector for the body (background image)*/
+  background: url('../images/discs.jpg') center; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#artistpagebody{
+  background: url('../images/artist.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#addartistbody{
+  background: url('../images/migos.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#editartistbody{
+  background: url('../images/versace.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#editalbumbody{
+  background: url('../images/kanye.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#addtalbumbody{
+  background: url('../images/drake.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#addtalbumbody{
+  background: url('../images/rocky.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#addtrackbody{
+  background: url('../images/drizzy.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#edittrackbody{
+  background: url('../images/skepta.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#albumpagebody{
+  background: url('../images/album.png') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#specificalbumpagebody{
+  background: url('../images/kanyee.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#specifictrackpagebody{
+  background: url('../images/weeknd.jpg') ; /*Display centre of the image*/
+  background-size:cover; /*Streches the image to cover the body*/
+}
+
+#homepagemid h2{ /*The title of the page e.g. "database metrics", "artists"... */
+  background-color: #32a0c2; /*Light blue*/
+  font-size: 30px;
+  text-indent: 10px;
+  border-left: 10px solid red;
+}
+
+#midbullets{ /*For bullet points middle of the page*/
+  font-size: 47px;
+  color: white;
+  background-color: red;
+  max-width: 600px; /*So that the background colour doesn't cover the whole width of the page*/
+  opacity: 0.8;
+  position: fixed;
+  top: 260px;
+  left: 10px;
+  border-left: 10px solid red;
+
+}
+
+.searchbar{
+  padding-top: 15px; //Space between bar and page options
+}
+
+.searchboxdesign{
+  border: 5px solid #32a0c2;
+  border-radius: 10px 10px;
+  padding: 5;
+}
+
+.button{
+  font-size: 25px;
+  text-decoration: none; /*removes underline*/
+  color: white;
+  border-radius: 10px 10px;
+  position:absolute;
+  top: 193px;
+  left: 200px;
+  padding: 3px 3px;
+  background-color: #32a0c2;
+}
+
+.specificbutton{
+  font-size: 25px;
+  text-decoration: none; /*removes underline*/
+  color: white;
+  border-radius: 10px 10px;
+  position:fixed;
+  top: 500px;
+  left: 235px;
+  padding: 3px 3px;
+  background-color: #32a0c2;
+}
+
+.backbutton{
+  font-size: 25px;
+  text-decoration: none; /*removes underline*/
+  color: white;
+  border-radius: 10px 10px;
+  position:fixed;
+  top: 500px;
+  left: 135px;
+  padding: 3px 3px;
+  background-color: #32a0c2;
+}
+
+h4{
+  font-size: 50px;
+  color: white;
+  border-radius: 10px 10px;
+  position: fixed;
+  top: 200px;
+  left: 50px;
+  padding: 10px 10px;
+  background-color: #32a0c2;
+}
+
+#editaddbuttonposition{
+  width: 170px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+#editaddbuttontext{
+  font-size: 25px;
+  text-decoration: none; /*removes underline*/
+  color: white;
+  border-radius: 10px 10px;
+  position: fixed;
+  top: 550px;
+  left: 800px;
+  padding: 10px 10px;
+  background-color: #32a0c2;
+}
+
+
+#deletebutton{
+    font-size: 25px;
+    text-decoration: none; /*removes underline*/
+    color: white;
+    border-radius: 10px 10px;
+    position: fixed;
+    top: 550px;
+    left: 600px;
+    padding: 10px 10px;
+    background-color: #32a0c2;
+  }
+
+.addartistpagebardesign{ /*Thius is the design*/
+  width: 500px;
+  height: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid #32a0c2;
+  border-radius: 10px 10px;
+  padding: 5px;
+  font-size: 35px;
+}
+
+.addartistpagebar{ /*Positioning*/
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.editalbform{
+  width:300px;
+  margin: auto;
+  padding: 5px;
+}
+
+.editalbtext{
+  width: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding-left: 30px;
+  background-color: #32a0c2;
+  border-radius: 10px 10px;
+}
+
+.editalbtype{
+  border: 2px solid #32a0c2;
+  border-radius: 10px 10px;
+  padding: 5px;
+  font-size: 35px;
+}
